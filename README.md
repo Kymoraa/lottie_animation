@@ -1,16 +1,8 @@
 # lottie_animation
 
-A new Flutter project.
+A simple project to demonstrate how to use the Lottie package to create easy and beautiful animations in Flutter
+Areicle to be pusblished on medium on 27th June 2022 (Insert Medium Article Link)
 
-## Getting Started
+![shopping_cart](https://user-images.githubusercontent.com/3049987/175785916-27a80a93-d106-4a64-84d1-3c8ddde29bd6.gif)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
