@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   Widget build(BuildContext context) {
     var screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
-      backgroundColor: const Color(0xfface0f1),
+      backgroundColor: const Color(0xff376f7e),
       body: Stack(
         children: [
           AnimatedContainer(
@@ -59,7 +59,10 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
             height: animationCompleted ? screenHeight / 1.5 : screenHeight,
             decoration: BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.circular(animationCompleted ? 40.0 : 0.0),
+              borderRadius: BorderRadius.only(
+                bottomRight: Radius.circular(animationCompleted ? 40.0 : 0.0),
+                bottomLeft: Radius.circular(animationCompleted ? 40.0 : 0.0),
+              ),
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
